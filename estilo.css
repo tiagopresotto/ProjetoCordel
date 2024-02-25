@@ -85,3 +85,23 @@ section#img02 {
     background-position: right center;
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+    font-family: var(--fonte3);
+}
+
+section.imagem {
+    background-color: rgba(169, 169, 169, 0.455);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.449);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
